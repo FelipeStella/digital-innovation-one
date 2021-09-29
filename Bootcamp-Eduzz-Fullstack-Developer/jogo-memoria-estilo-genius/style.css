@@ -1,0 +1,149 @@
+@font-face {
+    font-family: retro-gaming;
+    src: url(font-external/retro_gaming.woff);
+}
+
+body {
+    font-family: retro-gaming;
+    margin: 0;
+    background-color: black;
+}
+
+.main-game {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'red green brown'
+    'yellow menu blue' 'pink orange purple';
+    grid-gap: 10px;
+    border: 1px solid #ffffffff;
+    background-color: #ffffffff;
+    border-radius: 35%;
+    width: 40%;
+    height: 80%;
+}
+
+
+.blue {
+    grid-area: blue;
+    background-color: blue;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.red {
+    grid-area: red;
+    background-color: red;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.green {
+    grid-area: green;
+    background-color: green;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.yellow {
+    grid-area: yellow;
+    background-color: yellow;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.brown {
+    grid-area: brown;
+    background-color: brown;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.pink {
+    grid-area: pink;
+    background-color: pink;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 100%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.orange {
+    grid-area: orange;
+    background-color: orange;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.purple {
+    grid-area: purple;
+    background-color: purple;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 100%;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.selected {
+    opacity: 0.4;
+}
+
+.title-game {
+    color: #04d361;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 30px;
+}
+
+.button-play-game {
+    margin-left: 3%;
+    font-family: retro-gaming; 
+    height: 50px;
+    width: 100px;
+    font-size: 12px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    cursor: pointer;
+    background-color: #8257e5;
+    color: white;
+    font-weight: bold;
+ }
+
+ .score {
+    color: #04d361;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+#points {
+    color: #04d361;
+    background-color: black;
+    margin-left: 16px;
+    width: 20px;
+    font-family: retro-gaming;
+    font-size: 20px;
+}
+
+
+
