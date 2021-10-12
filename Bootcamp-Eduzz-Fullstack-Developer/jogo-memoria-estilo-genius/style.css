@@ -25,8 +25,8 @@ body {
     border: 1px solid #ffffffff;
     background-color: #ffffffff;
     border-radius: 35%;
-    width: 40%;
-    height: 80%;
+    width: 35%;
+    height: 70%;
 }
 
 
@@ -132,7 +132,7 @@ body {
 
  .score {
     color: #04d361;
-    margin-left: 300px;
+    margin-left: 250px;
     font-size: 20px;
 }
 
